@@ -54,6 +54,7 @@ body {
 
 .column {
   width: 50%;
+  text-align: center;
 }
 
 #footer {
@@ -64,4 +65,22 @@ body {
   background-color: red;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .row {
+    flex-flow: column;
+  }
+  .column {
+    width: 100%;
+  }
+  #guess {
+    width: 90%;
+  }
+  #title {
+    font-size: 32px;
+  }
+  #pokemon-name {
+    font-size: 32px;
+  }
 }
