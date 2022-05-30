@@ -62,7 +62,7 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(195, 255, 0);
   color: white;
   text-align: center;
 }
