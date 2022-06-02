@@ -83,4 +83,8 @@ body {
   #pokemon-name {
     font-size: 32px;
   }
+  #sprite {
+    height: 210px;
+    width: 210px;
+  }
 }
